@@ -23,7 +23,7 @@ function setup() {
 }
 
 function draw() {
- 
+
   //var tanning = sliderTan.value();
   image(back,103,181,544,967);
   image(phone,0,0,width,height);
@@ -34,6 +34,8 @@ function draw() {
   rect(width-10,0,10,height);
   tint(255,tanning);
   image(suntan,280.5,635,256/1.37,235/1.37);
+  textSize(25);
+  text('Skitage: '+sliderTan.value(),320,300);
 
 }
 
