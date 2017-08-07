@@ -22,6 +22,7 @@ function preload() {
 function setup() {
   createCanvas(750,1380);
   background(0);
+  textFont('DINOT');
   //createP('Skitage').position(370,1310);
   sliderTan = createSlider(0,255,0);
   sliderTan.position(310,1350);
